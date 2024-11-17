@@ -8,7 +8,7 @@
 ### Cards
 
 - add expand/collapse functionality
-- make sure the delete button works
+- make sure the "Delete" button works
 - add animations
 
 ### Deleted Cards
@@ -20,11 +20,12 @@
 ### Behavior
 
 - cards by default should be collapsed
-- expanded/deleted cards' state needs to be persisted after refreshing (regardless of isVisible property)
+- expanded/deleted cards' state needs to be persisted after "refreshing" (regardless of isVisible property)
+- "refresh" functionality needs to be implemented using `react-query`
 
 ### Miscellaneous
 
-- add a refresh button (just like the "Reveal" button)
+- add a "Refresh" button (just like the "Reveal" button)
 - create generic `<ToggleButton />`
 
 ### Additional
