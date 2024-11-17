@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ListItem, useGetListData } from "../api/getListData";
-import { Card } from "./List";
+import { Card } from "./Card";
 import { Spinner } from "./Spinner";
 
 export const Entrypoint = () => {
