@@ -18,3 +18,11 @@ export const DeleteButton: FC<Omit<ButtonProps, "children">> = (props) => {
     </button>
   );
 };
+
+export const ToggleButton: FC<ButtonProps> = ({ children, ...props }) => {
+  return (
+    <button className="text-white text-sm transition-colors hover:bg-gray-800 bg-black rounded px-3 py-1" {...props}>
+      {children}
+    </button>
+  );
+};

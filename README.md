@@ -32,3 +32,13 @@
 
 You may leave a message explaining your coding choices, but it's not necessary.
 Testing framework isn't installed, so instead just explain whether you think it's a good or bad idea to write tests for this feature or how to approach it.
+
+## Answer to the question
+
+**Question:** Testing framework isn't installed, so instead just explain whether you think it's a good or bad idea to write tests for this feature or how to approach it.
+
+**Answer:** Writing tests is a good idea to ensure functionality and prevent future bugs. The focus should be on:
+
+- **State changes**: `toggleExpandCard`, `deleteCard`, `revealDeletedCards`.
+- **User interactions**: buttons and actions triggered by clicks.
+- **Rendering**: verify correct UI updates after state changes or actions.
